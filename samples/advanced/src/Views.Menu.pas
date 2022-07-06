@@ -4,12 +4,12 @@ interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects, ALFmxObjects, FMX.Layouts,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects, FMX.Layouts,
   FMX.Controls.Presentation, FMX.StdCtrls, FMX.Ani, FMX.MultiView, FMX.Toast;
 
 type
   TFrmMenu = class(TForm)
-    retHeader: TALRectangle;
+    retHeader: TRectangle;
     lytHeader: TLayout;
     btnVoltar: TSpeedButton;
     imgVoltar: TPath;

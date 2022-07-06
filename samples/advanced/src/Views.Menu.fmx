@@ -9,7 +9,7 @@ object FrmMenu: TFrmMenu
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
-  object retHeader: TALRectangle
+  object retHeader: TRectangle
     Align = Top
     Fill.Kind = Gradient
     Fill.Gradient.Points = <
