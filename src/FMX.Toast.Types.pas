@@ -2,7 +2,7 @@ unit FMX.Toast.Types;
 
 interface
 
-uses System.UITypes;
+uses system.UITypes;
 
 type
 {$SCOPEDENUMS ON}
